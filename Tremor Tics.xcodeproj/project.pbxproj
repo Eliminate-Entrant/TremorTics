@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2482D4D4C81D372818A28329 /* Pods_Tremor_TicsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D295CD4A14F132A68E0371 /* Pods_Tremor_TicsTests.framework */; };
+		6C1925964E5810DAC59AF589 /* Pods_Tremor_TicsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2706728FCC702C8C624ACC /* Pods_Tremor_TicsUITests.framework */; };
+		9A12E60723144CA4005A6551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12E60623144CA4005A6551 /* AppDelegate.swift */; };
+		9A12E60923144CA4005A6551 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12E60823144CA4005A6551 /* MainViewController.swift */; };
+		9A12E60C23144CA4005A6551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A12E60A23144CA4005A6551 /* Main.storyboard */; };
+		9A12E60F23144CA4005A6551 /* Tremor_Tics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A12E60D23144CA4005A6551 /* Tremor_Tics.xcdatamodeld */; };
+		9A12E61123144CA4005A6551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A12E61023144CA4005A6551 /* Assets.xcassets */; };
+		9A12E61423144CA4005A6551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A12E61223144CA4005A6551 /* LaunchScreen.storyboard */; };
+		9A12E61F23144CA4005A6551 /* Tremor_TicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12E61E23144CA4005A6551 /* Tremor_TicsTests.swift */; };
+		9A12E62A23144CA4005A6551 /* Tremor_TicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12E62923144CA4005A6551 /* Tremor_TicsUITests.swift */; };
+		9A12E63823144D29005A6551 /* result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12E63723144D29005A6551 /* result.swift */; };
+		9A12E63A23144D3E005A6551 /* SearchFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12E63923144D3E005A6551 /* SearchFooter.swift */; };
+		9A12E63C23144D54005A6551 /* graph_shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9A12E63B23144D54005A6551 /* graph_shader.metal */; };
+		9A12E63E23144D67005A6551 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12E63D23144D67005A6551 /* GraphView.swift */; };
+		9A12E64023144D97005A6551 /* UserInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12E63F23144D97005A6551 /* UserInfoController.swift */; };
+		9A12E64223144DB7005A6551 /* HealthKitSetupAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12E64123144DB7005A6551 /* HealthKitSetupAssistant.swift */; };
+		9A12E64423144DCF005A6551 /* ProfileDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12E64323144DCF005A6551 /* ProfileDataStore.swift */; };
+		9A12E64623144DE3005A6551 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12E64523144DE3005A6551 /* user.swift */; };
+		9A12E64823144DF6005A6551 /* HKBloodType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12E64723144DF6005A6551 /* HKBloodType.swift */; };
+		9A12E64A23144E04005A6551 /* HKBiologicalSex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12E64923144E04005A6551 /* HKBiologicalSex.swift */; };
+		9A12E64C23144E14005A6551 /* Authorize HealthKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12E64B23144E14005A6551 /* Authorize HealthKit.swift */; };
+		9A12E64E23144E30005A6551 /* ReportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12E64D23144E30005A6551 /* ReportTableViewController.swift */; };
+		9A12E65023144E64005A6551 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12E64F23144E64005A6551 /* ReportViewController.swift */; };
+		9A12E65223144E79005A6551 /* TremorReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12E65123144E79005A6551 /* TremorReport.swift */; };
+		9A12E65423144E88005A6551 /* TremorReportsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12E65323144E88005A6551 /* TremorReportsTableViewCell.swift */; };
+		9A12E65623144E9B005A6551 /* TremorReportsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12E65523144E9B005A6551 /* TremorReportsTableViewController.swift */; };
+		9A12E65923144EB0005A6551 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A12E65823144EB0005A6551 /* HealthKit.framework */; };
+		9A2B250723157110006F1BE5 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2B250623157110006F1BE5 /* InfoViewController.swift */; };
+		9A2B250D2315723A006F1BE5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A2B250C2315723A006F1BE5 /* Settings.bundle */; };
+		9A2B250F23157354006F1BE5 /* SettingsBundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2B250E23157354006F1BE5 /* SettingsBundleHelper.swift */; };
+		9A2B251223157B0E006F1BE5 /* TicsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2B251123157B0E006F1BE5 /* TicsCollectionViewController.swift */; };
+		FF9245FFA1391398DBD12B24 /* Pods_Tremor_Tics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B98745F0A0A4D42E07CDEE1 /* Pods_Tremor_Tics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A12E61B23144CA4005A6551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A12E5FB23144CA4005A6551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A12E60223144CA4005A6551;
+			remoteInfo = "Tremor Tics";
+		};
+		9A12E62623144CA4005A6551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A12E5FB23144CA4005A6551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A12E60223144CA4005A6551;
+			remoteInfo = "Tremor Tics";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		128604721935575C1B0F0469 /* Pods-Tremor TicsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tremor TicsUITests.release.xcconfig"; path = "Target Support Files/Pods-Tremor TicsUITests/Pods-Tremor TicsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1B98745F0A0A4D42E07CDEE1 /* Pods_Tremor_Tics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tremor_Tics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		211B22820AC0180412EE12F8 /* Pods-Tremor TicsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tremor TicsTests.debug.xcconfig"; path = "Target Support Files/Pods-Tremor TicsTests/Pods-Tremor TicsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		277EE1743FC8A86316CABD56 /* Pods-Tremor Tics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tremor Tics.debug.xcconfig"; path = "Target Support Files/Pods-Tremor Tics/Pods-Tremor Tics.debug.xcconfig"; sourceTree = "<group>"; };
+		51BF3BBE7166F75B281F374A /* Pods-Tremor Tics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tremor Tics.release.xcconfig"; path = "Target Support Files/Pods-Tremor Tics/Pods-Tremor Tics.release.xcconfig"; sourceTree = "<group>"; };
+		7E2706728FCC702C8C624ACC /* Pods_Tremor_TicsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tremor_TicsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A12E60323144CA4005A6551 /* Tremor Tics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tremor Tics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A12E60623144CA4005A6551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A12E60823144CA4005A6551 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9A12E60B23144CA4005A6551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A12E60E23144CA4005A6551 /* Tremor_Tics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tremor_Tics.xcdatamodel; sourceTree = "<group>"; };
+		9A12E61023144CA4005A6551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A12E61323144CA4005A6551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A12E61523144CA4005A6551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A12E61A23144CA4005A6551 /* Tremor TicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tremor TicsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A12E61E23144CA4005A6551 /* Tremor_TicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tremor_TicsTests.swift; sourceTree = "<group>"; };
+		9A12E62023144CA4005A6551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A12E62523144CA4005A6551 /* Tremor TicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tremor TicsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A12E62923144CA4005A6551 /* Tremor_TicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tremor_TicsUITests.swift; sourceTree = "<group>"; };
+		9A12E62B23144CA4005A6551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A12E63723144D29005A6551 /* result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = result.swift; sourceTree = "<group>"; };
+		9A12E63923144D3E005A6551 /* SearchFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFooter.swift; sourceTree = "<group>"; };
+		9A12E63B23144D54005A6551 /* graph_shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = graph_shader.metal; sourceTree = "<group>"; };
+		9A12E63D23144D67005A6551 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		9A12E63F23144D97005A6551 /* UserInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoController.swift; sourceTree = "<group>"; };
+		9A12E64123144DB7005A6551 /* HealthKitSetupAssistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitSetupAssistant.swift; sourceTree = "<group>"; };
+		9A12E64323144DCF005A6551 /* ProfileDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataStore.swift; sourceTree = "<group>"; };
+		9A12E64523144DE3005A6551 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		9A12E64723144DF6005A6551 /* HKBloodType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKBloodType.swift; sourceTree = "<group>"; };
+		9A12E64923144E04005A6551 /* HKBiologicalSex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKBiologicalSex.swift; sourceTree = "<group>"; };
+		9A12E64B23144E14005A6551 /* Authorize HealthKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Authorize HealthKit.swift"; sourceTree = "<group>"; };
+		9A12E64D23144E30005A6551 /* ReportTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTableViewController.swift; sourceTree = "<group>"; };
+		9A12E64F23144E64005A6551 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		9A12E65123144E79005A6551 /* TremorReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TremorReport.swift; sourceTree = "<group>"; };
+		9A12E65323144E88005A6551 /* TremorReportsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TremorReportsTableViewCell.swift; sourceTree = "<group>"; };
+		9A12E65523144E9B005A6551 /* TremorReportsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TremorReportsTableViewController.swift; sourceTree = "<group>"; };
+		9A12E65823144EB0005A6551 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		9A12E65A23144EB0005A6551 /* Tremor Tics.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Tremor Tics.entitlements"; sourceTree = "<group>"; };
+		9A2B250623157110006F1BE5 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		9A2B250C2315723A006F1BE5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		9A2B250E23157354006F1BE5 /* SettingsBundleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsBundleHelper.swift; sourceTree = "<group>"; };
+		9A2B251123157B0E006F1BE5 /* TicsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicsCollectionViewController.swift; sourceTree = "<group>"; };
+		D4BBCBE7EA92A140ECDFF738 /* Pods-Tremor TicsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tremor TicsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tremor TicsUITests/Pods-Tremor TicsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD1FA7ADC7C13CE0C22E5DF0 /* Pods-Tremor TicsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tremor TicsTests.release.xcconfig"; path = "Target Support Files/Pods-Tremor TicsTests/Pods-Tremor TicsTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8D295CD4A14F132A68E0371 /* Pods_Tremor_TicsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tremor_TicsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A12E60023144CA4005A6551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A12E65923144EB0005A6551 /* HealthKit.framework in Frameworks */,
+				FF9245FFA1391398DBD12B24 /* Pods_Tremor_Tics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A12E61723144CA4005A6551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2482D4D4C81D372818A28329 /* Pods_Tremor_TicsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A12E62223144CA4005A6551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C1925964E5810DAC59AF589 /* Pods_Tremor_TicsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F2912E5CF5BCB3D53684DB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				277EE1743FC8A86316CABD56 /* Pods-Tremor Tics.debug.xcconfig */,
+				51BF3BBE7166F75B281F374A /* Pods-Tremor Tics.release.xcconfig */,
+				211B22820AC0180412EE12F8 /* Pods-Tremor TicsTests.debug.xcconfig */,
+				DD1FA7ADC7C13CE0C22E5DF0 /* Pods-Tremor TicsTests.release.xcconfig */,
+				D4BBCBE7EA92A140ECDFF738 /* Pods-Tremor TicsUITests.debug.xcconfig */,
+				128604721935575C1B0F0469 /* Pods-Tremor TicsUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9A12E5FA23144CA4005A6551 = {
+			isa = PBXGroup;
+			children = (
+				9A12E60523144CA4005A6551 /* Tremor Tics */,
+				9A12E61D23144CA4005A6551 /* Tremor TicsTests */,
+				9A12E62823144CA4005A6551 /* Tremor TicsUITests */,
+				9A12E60423144CA4005A6551 /* Products */,
+				9A12E65723144EB0005A6551 /* Frameworks */,
+				0F2912E5CF5BCB3D53684DB7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9A12E60423144CA4005A6551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A12E60323144CA4005A6551 /* Tremor Tics.app */,
+				9A12E61A23144CA4005A6551 /* Tremor TicsTests.xctest */,
+				9A12E62523144CA4005A6551 /* Tremor TicsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A12E60523144CA4005A6551 /* Tremor Tics */ = {
+			isa = PBXGroup;
+			children = (
+				9A12E65A23144EB0005A6551 /* Tremor Tics.entitlements */,
+				9A12E60623144CA4005A6551 /* AppDelegate.swift */,
+				9A12E60823144CA4005A6551 /* MainViewController.swift */,
+				9A12E63723144D29005A6551 /* result.swift */,
+				9A12E63923144D3E005A6551 /* SearchFooter.swift */,
+				9A12E63B23144D54005A6551 /* graph_shader.metal */,
+				9A12E63D23144D67005A6551 /* GraphView.swift */,
+				9A12E65123144E79005A6551 /* TremorReport.swift */,
+				9A2B2509231571D7006F1BE5 /* Health Data */,
+				9A2B250A231571EF006F1BE5 /* Report View */,
+				9A2B251023157369006F1BE5 /* App Settings */,
+				9A2B250B231571FF006F1BE5 /* Table */,
+				9A12E60A23144CA4005A6551 /* Main.storyboard */,
+				9A12E61223144CA4005A6551 /* LaunchScreen.storyboard */,
+				9A2B251123157B0E006F1BE5 /* TicsCollectionViewController.swift */,
+				9A2B250623157110006F1BE5 /* InfoViewController.swift */,
+				9A12E61023144CA4005A6551 /* Assets.xcassets */,
+				9A12E61523144CA4005A6551 /* Info.plist */,
+				9A12E60D23144CA4005A6551 /* Tremor_Tics.xcdatamodeld */,
+			);
+			path = "Tremor Tics";
+			sourceTree = "<group>";
+		};
+		9A12E61D23144CA4005A6551 /* Tremor TicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A12E61E23144CA4005A6551 /* Tremor_TicsTests.swift */,
+				9A12E62023144CA4005A6551 /* Info.plist */,
+			);
+			path = "Tremor TicsTests";
+			sourceTree = "<group>";
+		};
+		9A12E62823144CA4005A6551 /* Tremor TicsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A12E62923144CA4005A6551 /* Tremor_TicsUITests.swift */,
+				9A12E62B23144CA4005A6551 /* Info.plist */,
+			);
+			path = "Tremor TicsUITests";
+			sourceTree = "<group>";
+		};
+		9A12E65723144EB0005A6551 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A12E65823144EB0005A6551 /* HealthKit.framework */,
+				1B98745F0A0A4D42E07CDEE1 /* Pods_Tremor_Tics.framework */,
+				F8D295CD4A14F132A68E0371 /* Pods_Tremor_TicsTests.framework */,
+				7E2706728FCC702C8C624ACC /* Pods_Tremor_TicsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A2B2509231571D7006F1BE5 /* Health Data */ = {
+			isa = PBXGroup;
+			children = (
+				9A12E63F23144D97005A6551 /* UserInfoController.swift */,
+				9A12E64123144DB7005A6551 /* HealthKitSetupAssistant.swift */,
+				9A12E64323144DCF005A6551 /* ProfileDataStore.swift */,
+				9A12E64523144DE3005A6551 /* user.swift */,
+				9A12E64723144DF6005A6551 /* HKBloodType.swift */,
+				9A12E64923144E04005A6551 /* HKBiologicalSex.swift */,
+				9A12E64B23144E14005A6551 /* Authorize HealthKit.swift */,
+			);
+			path = "Health Data";
+			sourceTree = "<group>";
+		};
+		9A2B250A231571EF006F1BE5 /* Report View */ = {
+			isa = PBXGroup;
+			children = (
+				9A12E64D23144E30005A6551 /* ReportTableViewController.swift */,
+				9A12E64F23144E64005A6551 /* ReportViewController.swift */,
+			);
+			path = "Report View";
+			sourceTree = "<group>";
+		};
+		9A2B250B231571FF006F1BE5 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				9A12E65323144E88005A6551 /* TremorReportsTableViewCell.swift */,
+				9A12E65523144E9B005A6551 /* TremorReportsTableViewController.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		9A2B251023157369006F1BE5 /* App Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9A2B250E23157354006F1BE5 /* SettingsBundleHelper.swift */,
+				9A2B250C2315723A006F1BE5 /* Settings.bundle */,
+			);
+			path = "App Settings";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A12E60223144CA4005A6551 /* Tremor Tics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A12E62E23144CA4005A6551 /* Build configuration list for PBXNativeTarget "Tremor Tics" */;
+			buildPhases = (
+				8ECBECBDD90A699E1FF4FE46 /* [CP] Check Pods Manifest.lock */,
+				9A12E5FF23144CA4005A6551 /* Sources */,
+				9A12E60023144CA4005A6551 /* Frameworks */,
+				9A12E60123144CA4005A6551 /* Resources */,
+				E34245F146D14DF2D9E0BCC6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tremor Tics";
+			productName = "Tremor Tics";
+			productReference = 9A12E60323144CA4005A6551 /* Tremor Tics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A12E61923144CA4005A6551 /* Tremor TicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A12E63123144CA4005A6551 /* Build configuration list for PBXNativeTarget "Tremor TicsTests" */;
+			buildPhases = (
+				DFAC5CEEBF6145D143E16D3E /* [CP] Check Pods Manifest.lock */,
+				9A12E61623144CA4005A6551 /* Sources */,
+				9A12E61723144CA4005A6551 /* Frameworks */,
+				9A12E61823144CA4005A6551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A12E61C23144CA4005A6551 /* PBXTargetDependency */,
+			);
+			name = "Tremor TicsTests";
+			productName = "Tremor TicsTests";
+			productReference = 9A12E61A23144CA4005A6551 /* Tremor TicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A12E62423144CA4005A6551 /* Tremor TicsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A12E63423144CA4005A6551 /* Build configuration list for PBXNativeTarget "Tremor TicsUITests" */;
+			buildPhases = (
+				ED8B64C6A27EA5084155E3CA /* [CP] Check Pods Manifest.lock */,
+				9A12E62123144CA4005A6551 /* Sources */,
+				9A12E62223144CA4005A6551 /* Frameworks */,
+				9A12E62323144CA4005A6551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A12E62723144CA4005A6551 /* PBXTargetDependency */,
+			);
+			name = "Tremor TicsUITests";
+			productName = "Tremor TicsUITests";
+			productReference = 9A12E62523144CA4005A6551 /* Tremor TicsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A12E5FB23144CA4005A6551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Shaheer Chaudry";
+				TargetAttributes = {
+					9A12E60223144CA4005A6551 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					9A12E61923144CA4005A6551 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9A12E60223144CA4005A6551;
+					};
+					9A12E62423144CA4005A6551 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9A12E60223144CA4005A6551;
+					};
+				};
+			};
+			buildConfigurationList = 9A12E5FE23144CA4005A6551 /* Build configuration list for PBXProject "Tremor Tics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A12E5FA23144CA4005A6551;
+			productRefGroup = 9A12E60423144CA4005A6551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A12E60223144CA4005A6551 /* Tremor Tics */,
+				9A12E61923144CA4005A6551 /* Tremor TicsTests */,
+				9A12E62423144CA4005A6551 /* Tremor TicsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A12E60123144CA4005A6551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A2B250D2315723A006F1BE5 /* Settings.bundle in Resources */,
+				9A12E61423144CA4005A6551 /* LaunchScreen.storyboard in Resources */,
+				9A12E61123144CA4005A6551 /* Assets.xcassets in Resources */,
+				9A12E60C23144CA4005A6551 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A12E61823144CA4005A6551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A12E62323144CA4005A6551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8ECBECBDD90A699E1FF4FE46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tremor Tics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFAC5CEEBF6145D143E16D3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tremor TicsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E34245F146D14DF2D9E0BCC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tremor Tics/Pods-Tremor Tics-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tremor Tics/Pods-Tremor Tics-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tremor Tics/Pods-Tremor Tics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED8B64C6A27EA5084155E3CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tremor TicsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A12E5FF23144CA4005A6551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A12E65023144E64005A6551 /* ReportViewController.swift in Sources */,
+				9A12E64223144DB7005A6551 /* HealthKitSetupAssistant.swift in Sources */,
+				9A12E64E23144E30005A6551 /* ReportTableViewController.swift in Sources */,
+				9A12E64423144DCF005A6551 /* ProfileDataStore.swift in Sources */,
+				9A12E65423144E88005A6551 /* TremorReportsTableViewCell.swift in Sources */,
+				9A2B251223157B0E006F1BE5 /* TicsCollectionViewController.swift in Sources */,
+				9A12E63A23144D3E005A6551 /* SearchFooter.swift in Sources */,
+				9A12E64C23144E14005A6551 /* Authorize HealthKit.swift in Sources */,
+				9A2B250F23157354006F1BE5 /* SettingsBundleHelper.swift in Sources */,
+				9A12E63C23144D54005A6551 /* graph_shader.metal in Sources */,
+				9A12E65623144E9B005A6551 /* TremorReportsTableViewController.swift in Sources */,
+				9A12E64023144D97005A6551 /* UserInfoController.swift in Sources */,
+				9A12E63E23144D67005A6551 /* GraphView.swift in Sources */,
+				9A12E60923144CA4005A6551 /* MainViewController.swift in Sources */,
+				9A12E65223144E79005A6551 /* TremorReport.swift in Sources */,
+				9A12E60723144CA4005A6551 /* AppDelegate.swift in Sources */,
+				9A2B250723157110006F1BE5 /* InfoViewController.swift in Sources */,
+				9A12E64A23144E04005A6551 /* HKBiologicalSex.swift in Sources */,
+				9A12E63823144D29005A6551 /* result.swift in Sources */,
+				9A12E64823144DF6005A6551 /* HKBloodType.swift in Sources */,
+				9A12E64623144DE3005A6551 /* user.swift in Sources */,
+				9A12E60F23144CA4005A6551 /* Tremor_Tics.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A12E61623144CA4005A6551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A12E61F23144CA4005A6551 /* Tremor_TicsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A12E62123144CA4005A6551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A12E62A23144CA4005A6551 /* Tremor_TicsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A12E61C23144CA4005A6551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A12E60223144CA4005A6551 /* Tremor Tics */;
+			targetProxy = 9A12E61B23144CA4005A6551 /* PBXContainerItemProxy */;
+		};
+		9A12E62723144CA4005A6551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A12E60223144CA4005A6551 /* Tremor Tics */;
+			targetProxy = 9A12E62623144CA4005A6551 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A12E60A23144CA4005A6551 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A12E60B23144CA4005A6551 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A12E61223144CA4005A6551 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A12E61323144CA4005A6551 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A12E62C23144CA4005A6551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: Rahla Chaudry (Z65A7SS42V)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A12E62D23144CA4005A6551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: Rahla Chaudry (Z65A7SS42V)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A12E62F23144CA4005A6551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277EE1743FC8A86316CABD56 /* Pods-Tremor Tics.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Tremor Tics/Tremor Tics.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9BNJ4JCM9;
+				INFOPLIST_FILE = "Tremor Tics/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SC.Tremor-Tics";
+				PRODUCT_NAME = "Tremor Tics";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		9A12E63023144CA4005A6551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51BF3BBE7166F75B281F374A /* Pods-Tremor Tics.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Tremor Tics/Tremor Tics.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9BNJ4JCM9;
+				INFOPLIST_FILE = "Tremor Tics/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SC.Tremor-Tics";
+				PRODUCT_NAME = "Tremor Tics";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		9A12E63223144CA4005A6551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 211B22820AC0180412EE12F8 /* Pods-Tremor TicsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6QA38E77Z;
+				INFOPLIST_FILE = "Tremor TicsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "blank.Tremor-TicsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tremor Tics.app/Tremor Tics";
+			};
+			name = Debug;
+		};
+		9A12E63323144CA4005A6551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD1FA7ADC7C13CE0C22E5DF0 /* Pods-Tremor TicsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6QA38E77Z;
+				INFOPLIST_FILE = "Tremor TicsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "blank.Tremor-TicsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tremor Tics.app/Tremor Tics";
+			};
+			name = Release;
+		};
+		9A12E63523144CA4005A6551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4BBCBE7EA92A140ECDFF738 /* Pods-Tremor TicsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6QA38E77Z;
+				INFOPLIST_FILE = "Tremor TicsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "blank.Tremor-TicsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tremor Tics";
+			};
+			name = Debug;
+		};
+		9A12E63623144CA4005A6551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 128604721935575C1B0F0469 /* Pods-Tremor TicsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6QA38E77Z;
+				INFOPLIST_FILE = "Tremor TicsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "blank.Tremor-TicsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tremor Tics";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A12E5FE23144CA4005A6551 /* Build configuration list for PBXProject "Tremor Tics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A12E62C23144CA4005A6551 /* Debug */,
+				9A12E62D23144CA4005A6551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A12E62E23144CA4005A6551 /* Build configuration list for PBXNativeTarget "Tremor Tics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A12E62F23144CA4005A6551 /* Debug */,
+				9A12E63023144CA4005A6551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A12E63123144CA4005A6551 /* Build configuration list for PBXNativeTarget "Tremor TicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A12E63223144CA4005A6551 /* Debug */,
+				9A12E63323144CA4005A6551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A12E63423144CA4005A6551 /* Build configuration list for PBXNativeTarget "Tremor TicsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A12E63523144CA4005A6551 /* Debug */,
+				9A12E63623144CA4005A6551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9A12E60D23144CA4005A6551 /* Tremor_Tics.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9A12E60E23144CA4005A6551 /* Tremor_Tics.xcdatamodel */,
+			);
+			currentVersion = 9A12E60E23144CA4005A6551 /* Tremor_Tics.xcdatamodel */;
+			path = Tremor_Tics.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9A12E5FB23144CA4005A6551 /* Project object */;
+}

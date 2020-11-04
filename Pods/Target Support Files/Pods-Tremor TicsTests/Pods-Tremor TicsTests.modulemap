@@ -1,0 +1,6 @@
+framework module Pods_Tremor_TicsTests {
+  umbrella header "Pods-Tremor TicsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
